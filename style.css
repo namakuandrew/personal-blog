@@ -58,3 +58,42 @@ body {
     border-bottom: 1px solid lightcyan;
     text-decoration: none;
   }
+
+#name-container {
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+#myName {
+  color: white;
+}
+
+/* about section */
+
+#about-section {
+  height: auto;
+  width: 100%;
+  position:relative;
+}
+
+#myPhoto img {
+  margin-top: -120px;
+  border: 4px solid white;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  box-shadow: 0px 0px 8px 4px lightgrey;
+}
+
+#about-profile {
+  color: grey;
+  width: 80%;
+  padding: 20px;
+  margin:auto;
+}
+
+/* skill section */
+
+#Skills {
+  width: 100%;
+}
