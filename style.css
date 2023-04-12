@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  section {
+    width: 100%;
+  }
+  
+  section::after{
+    content: "";
+    clear: both;
+    display: flex;
+  }
+  
+  .section-heading {
+    color: blue;
+    font-size: 35px;
+    padding: 64px;
+  }
+  
+  /* atur bagian header  */
+  #header-resume {
+    opacity: 0.8;
+    background-position: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 400px;
+    padding-top: 14px;
+  }
+
+  #header-nav ul {
+    word-spacing: 20px;
+  }
+
+  #header-nav li {
+    display: inline-block;
+  }
+
+  #header-nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .nav-menu li a {
+    color: lightgreen;
+    transition: color 0.6s, border-bottom 2s ;
+  }
+
+  .nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid lightcyan;
+    text-decoration: none;
+  }
